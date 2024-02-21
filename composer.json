@@ -11,28 +11,11 @@
         "php": ">=7.1.0"
        
     },
-     "require-dev": {
-          "s-patompong/nova-grid" : "dev-master"
-     },
     "autoload": {
         "psr-4": {
             "Nibri10\\NovaGrid\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-                "name": "s-patompong/nova-grid",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/s-patompong/nova-grid.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
-        }
-    ],
     "extra": {
         "laravel": {
             "providers": [
